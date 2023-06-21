@@ -31,7 +31,7 @@ switch(o){
 case 'g':
 			//Заповнення масиву numeric[4] випадковими чилами
 			srand(time(0));
-			numeric[0] = rand() % 10;
+			numeric[0] = rand() % 9 + 1;
     for (i = 1; i < 4; i++) {
         iteration = 0;
         do {
